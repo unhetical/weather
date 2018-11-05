@@ -1,0 +1,259 @@
+@charset "utf-8";
+
+* {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+#app {
+    background-color: ghostwhite;
+}
+
+/*-----------MAP----------*/
+
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 300px;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 1046px;
+    position: absolute;
+}
+
+/*---------HEADER FLEX BOX---------*/
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.titleh1 {
+    width: 65%;
+    font-size: 60px;
+}
+
+/*---------NAVBAR---------*/
+.nav {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.topnav {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+}
+
+input[type=text] {
+    width: 43%;
+    height: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+/*-------CONTENT-------*/
+
+.box {
+    margin: 30px;
+    border: 2px solid dimgray;
+    box-shadow: 10px 10px 5px grey;
+    background-color: darkkhaki;
+    background-size: cover;
+    background-position: center;
+    ;
+
+}
+
+.subtitle {
+    padding-left: 20px;
+    border: 2px solid #343a40;
+    background-color: #343a40;
+    color: white;
+}
+
+/*-------CARDS-------*/
+
+
+.cards {
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flip-card {
+    display: flex;
+    width: 450px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 9px 9px 4px grey;
+    -webkit-transition: width 4s;
+    transition: width 4s;
+    -webkit-transition: height 2s;
+    transition: height 2s;
+    justify-content: center;
+    background-image: url(img/Yafran-old-city.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.flip-card:hover {
+    width: 450px;
+    height: 400px;
+    box-shadow: 10px 10px 5px grey;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.city {
+    width: 60%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.data {
+    width: 40%;
+    height: 13%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: #ffeeba;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.allgif {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.gifsun {
+    width: 70px;
+    height: 70px;
+    border-radius: 30%;
+
+}
+
+.gifstorm {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    border-radius: 30%;
+    background-image: url(https://media.giphy.com/media/26uf5HjasTtxtNCqQ/giphy.gif);
+}
+
+.gifcloud {
+    width: 90px;
+    height: 90px;
+    border-radius: 30%;
+}
+
+.gifrain {
+    width: 90px;
+    height: 90px;
+    border-radius: 30%;
+}
+
+.map {
+    width: 500px;
+    height: 300px;
+}
+
+/*-------TABLE-------*/
+
+.flextable {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.table-dark {
+    border: 2px solid dimgray;
+    box-shadow: 7px 7px 4px grey;
+}
+
+.table2 {
+    margin-left: 50px;
+    margin-top: 30px;
+    width: 90%;
+    height: 0px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.table2 th {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.table2 td {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.table-dark:hover {
+    box-shadow: 10px 10px 5px grey;
+}

@@ -1,0 +1,82 @@
+Hello! Good Afternoon team.
+
+Congrats for the “Book Store” exercise. Nice to see how you are growing like future developers.
+
+In this case I don't want to say you how to make nothing in the project. Let fly your imagination.
+
+I show you a sneak peak of my possible solution. You need to make something like this, or something completely different. Play!!
+
+
+
+Here is the data:
+
+https://api.myjson.com/bins/i8run
+
+And
+ here is the snapshot of my project:
+
+https://ubiqum.github.io/JSON-Weather/index.html
+
+P.D. -
+
+ An onteresting approach is to use a search input to find the city that you want. But you have to “play” with the open weather 
+
+API.
+
+https://openweathermap.org/api
+
+Good luck guys.
+openweathermap.org
+Weather API -
+
+ OpenWeatherMap
+Simple and fast and free weather API from OpenWeatherMap you have access to current weather data, 5- and 16-day forecasts, UV Index, air pollution and historical data
+
+
+Vasil [17:22]
+Btw team here you can find the feedback form for the second module.
+https://ubiqum.typeform.com/to/jf1CKD
+
+Thx in advance.
+
+
+¡Hola! Equipo de buenas tardes.
+
+Felicidades por el ejercicio “Librería”. Encantado de ver cómo estás creciendo como futuros desarrolladores.
+
+En este caso, no quiero decirte cómo hacer nada en el proyecto. Deja volar tu imaginación.
+
+Te muestro un adelanto de mi posible solución. Necesitas hacer algo como esto, o algo completamente diferente. ¡¡Jugar!!
+
+
+
+Aquí están los datos:
+
+https://api.myjson.com/bins/i8run
+
+Y
+ Aquí está la instantánea de mi proyecto:
+
+https://ubiqum.github.io/JSON-Weather/index.html
+
+P.D. -
+
+ Un enfoque interesante es utilizar una entrada de búsqueda para encontrar la ciudad que desea. Pero tienes que "jugar" con el clima abierto.
+
+API.
+
+https://openweathermap.org/api
+
+Buena suerte chicos.
+openweathermap.org
+API del tiempo -
+
+ OpenWeatherMap
+API meteorológica simple, rápida y gratuita de OpenWeatherMap, tiene acceso a datos meteorológicos actuales, pronósticos de 5 y 16 días, índice UV, contaminación del aire y datos históricos
+
+
+Vasil [17:22]
+Por cierto, aquí puede encontrar el formulario de comentarios para el segundo módulo.
+https://ubiqum.typeform.com/to/jf1CKD
+
+Gracias por adelantado.
