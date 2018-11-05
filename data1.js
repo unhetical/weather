@@ -41,7 +41,7 @@
                  gif = "https://media.giphy.com/media/l2QEikgvMogv2Lmww/giphy.gif";
              }
              if(weather == "Sun" || weather == "Sunny"){
-                 gif = "https://media.giphy.com/media/nYiHd4Mh3w6fS/giphy.gif"
+                 gif = "https://media.giphy.com/media/nYiHd4Mh3w6fS/giphy.gif";
              }
              return gif;
          }

@@ -93,7 +93,7 @@ input[type=text]:focus {
 .box {
     margin: 30px;
     border: 2px solid dimgray;
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 3px 5px 6px grey;
     background-color: #ffeeba;
     background-size: cover;
     background-position: center;
@@ -112,7 +112,7 @@ input[type=text]:focus {
 
 .cards {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -125,10 +125,6 @@ input[type=text]:focus {
     width: 450px;
     height: 200px;
     margin: 20px;
-    color: black;
-    box-shadow: 9px 9px 4px grey;
-    -webkit-transition: width 4s;
-    transition: width 4s;
     -webkit-transition: height 2s;
     transition: height 2s;
     justify-content: center;
@@ -137,15 +133,14 @@ input[type=text]:focus {
 
 .flip-card:hover {
     width: 450px;
-    height: 400px;
-    box-shadow: 10px 10px 5px grey;
-    border: 2px solid black;
-    border-radius: 5px;
+    height: 350px;
     cursor: pointer;
     z-index: 1;
+
 }
 
 .city {
+    text-shadow: 2px 2px 8px grey;
     padding: 10px;
     width: 58%;
     height: 13%;
@@ -156,7 +151,7 @@ input[type=text]:focus {
 }
 
 .data {
-    margin-top:3px;
+    margin-top: 3px;
     padding: 10px;
     width: 40%;
     height: 18%;
@@ -171,19 +166,18 @@ input[type=text]:focus {
     border-radius: 5px;
     padding-left: 5px;
     z-index: 1;
+    box-shadow: 3px 5px 6px grey;
 }
 
 .allgif {
     color: black;
     border: 2px solid black;
     border-radius: 5px;
-    box-shadow: 9px 9px 4px grey;
+    box-shadow: 3px 5px 6px grey;
     position: absolute;
     width: 450px;
     height: 200px;
     z-index: -1;
-     -webkit-transition: width 4s;
-    transition: width 4s;
     -webkit-transition: height 2s;
     transition: height 2s;
 }
@@ -192,8 +186,8 @@ input[type=text]:focus {
     position: absolute;
     z-index: -1;
     width: 450px;
-    height: 400px;
-    box-shadow: 10px 10px 5px grey;
+    height: 220px;
+    box-shadow: 3px 5px 6px grey;
     border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
@@ -201,7 +195,7 @@ input[type=text]:focus {
 
 .gifsun {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .gifcloud {
@@ -234,7 +228,7 @@ input[type=text]:focus {
 
 .table-dark {
     border: 2px solid dimgray;
-    box-shadow: 7px 7px 4px grey;
+    box-shadow: 3px 5px 6px grey;
     z-index: 1;
 }
 
@@ -250,6 +244,7 @@ input[type=text]:focus {
     align-content: flex-end;
     align-items: flex-end;
     align-self: flex-end;
+
 }
 
 .table2 th {
@@ -263,6 +258,12 @@ input[type=text]:focus {
 }
 
 .table-dark:hover {
-    box-shadow: 10px 10px 5px grey;
+    box-shadow: 3px 5px 6px grey;
     z-index: 1;
+}
+
+.table-bordered {
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 3px 5px 6px grey;
 }

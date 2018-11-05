@@ -68,21 +68,21 @@
 
                 <!-----------------CARD LOCATION---------------->
                 <div id="child" class="cards">
-                    <div class="flip-card" v-for="value in filter" v-on:click="showTable" v-on:click="showGif">
+                    <div class="flip-card" v-for="value in filter" v-on:click="showTable">
 
                         <div class="cards">
                             <h4 class="city">{{value.name}}</h4>
                             <p class="data">Temperature {{value.main.temp}} ºC
                                 {{value.weather[0].description}}</p>
 
-                            <div class= "allgif">
-                                <img class="gifrain" :src="showGif(value.weather[0].main)">
+                            <div class="allgif">
+                                <img class="gifrain img-responsive" :src="showGif(value.weather[0].main)">
                             </div>
 
                             <!-----------------TABLE IN CARD---------------->
 
                             <div class="table2">
-                                <table class="table">
+                                <table class="table table-bordered">
                                     <thead class="thead-light">
                                         <th>Temp_Max ºC</th>
                                         <th>Temp_Min ºC</th>
