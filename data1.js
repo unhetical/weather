@@ -45,6 +45,7 @@
              }
              return gif;
          }
+         
      },
 
      created: function () {

@@ -9,10 +9,12 @@
 
 body {
     background-color: darkslategrey;
+    z-index: -4;
 }
 
 #app {
     background-color: ghostwhite;
+    z-index: -3;
 }
 
 /*-----------MAP----------*/
@@ -92,10 +94,10 @@ input[type=text]:focus {
     margin: 30px;
     border: 2px solid dimgray;
     box-shadow: 10px 10px 5px grey;
-    background-color: darkkhaki;
+    background-color: #ffeeba;
     background-size: cover;
     background-position: center;
-    ;
+    z-index: -2;
 
 }
 
@@ -108,7 +110,6 @@ input[type=text]:focus {
 
 /*-------CARDS-------*/
 
-
 .cards {
     display: flex;
     width: 100%;
@@ -116,6 +117,7 @@ input[type=text]:focus {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
+    z-index: 1;
 }
 
 .flip-card {
@@ -123,20 +125,14 @@ input[type=text]:focus {
     width: 450px;
     height: 200px;
     margin: 20px;
-    padding: 10px;
     color: black;
-    border: 2px solid black;
-    border-radius: 5px;
     box-shadow: 9px 9px 4px grey;
     -webkit-transition: width 4s;
     transition: width 4s;
     -webkit-transition: height 2s;
     transition: height 2s;
     justify-content: center;
-    background-image: url(img/Yafran-old-city.jpg);
-    background-size: cover;
-    background-position: center;
-
+    z-index: 1;
 }
 
 .flip-card:hover {
@@ -146,19 +142,24 @@ input[type=text]:focus {
     border: 2px solid black;
     border-radius: 5px;
     cursor: pointer;
+    z-index: 1;
 }
 
 .city {
-    width: 60%;
+    padding: 10px;
+    width: 58%;
     height: 13%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    z-index: 1;
 }
 
 .data {
+    margin-top:3px;
+    padding: 10px;
     width: 40%;
-    height: 13%;
+    height: 18%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -169,44 +170,49 @@ input[type=text]:focus {
     border: 2px solid black;
     border-radius: 5px;
     padding-left: 5px;
+    z-index: 1;
 }
 
 .allgif {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50%;
-    padding-top: 20px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 9px 9px 4px grey;
+    position: absolute;
+    width: 450px;
+    height: 200px;
+    z-index: -1;
+     -webkit-transition: width 4s;
+    transition: width 4s;
+    -webkit-transition: height 2s;
+    transition: height 2s;
+}
+
+.allgif:hover {
+    position: absolute;
+    z-index: -1;
+    width: 450px;
+    height: 400px;
+    box-shadow: 10px 10px 5px grey;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .gifsun {
-    width: 70px;
-    height: 70px;
-    border-radius: 30%;
-
-}
-
-.gifstorm {
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 90px;
-    height: 90px;
-    border-radius: 30%;
-    background-image: url(https://media.giphy.com/media/26uf5HjasTtxtNCqQ/giphy.gif);
+    width: 100%;
+    height: 100%;
 }
 
 .gifcloud {
-    width: 90px;
-    height: 90px;
-    border-radius: 30%;
+    width: 100%;
+    height: 100%;
+
 }
 
 .gifrain {
-    width: 90px;
-    height: 90px;
-    border-radius: 30%;
+    width: 100%;
+    height: 100%;
 }
 
 .map {
@@ -223,17 +229,19 @@ input[type=text]:focus {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-start;
+    z-index: 1;
 }
 
 .table-dark {
     border: 2px solid dimgray;
     box-shadow: 7px 7px 4px grey;
+    z-index: 1;
 }
 
 .table2 {
-    margin-left: 50px;
+    padding: 20px;
     margin-top: 30px;
-    width: 90%;
+    width: 100%;
     height: 0px;
     display: flex;
     flex-direction: column;
@@ -256,4 +264,5 @@ input[type=text]:focus {
 
 .table-dark:hover {
     box-shadow: 10px 10px 5px grey;
+    z-index: 1;
 }
