@@ -20,9 +20,22 @@
              }).then(function (myData) {
                  app.weathers = myData.list;
                  console.log(app.weathers);
+                 app.fetchIni2(this.url2);
 
              })
          },
+         
+         fetchIni2: function (url2) {
+             fetch("http://api.openweathermap.org/data/2.5/weather?q=London&units=metric&APPID=4d356077513826c290f004daa31c232b", {
+                 headers: {}
+             }).then(function (data) {
+                 return data.json();
+             }).then(function (myData) {
+                 app.weathers.push(myData);
+
+             })
+         },
+         
          showTable: function () {
              if (this.info == false) {
                  this.info = true;
@@ -43,6 +56,13 @@
              if(weather == "Sun" || weather == "Sunny"){
                  gif = "https://media.giphy.com/media/nYiHd4Mh3w6fS/giphy.gif";
              }
+             if (weather == "Snow") {
+                 gif = "https://media.giphy.com/media/Zt6W9aiKkUSZy/giphy.gif";
+             }
+             if(weather== "Mist" || weather == "Haze" || weather == "Fog"){
+                 gif = "https://media.giphy.com/media/E2A8QjNoOtEGY/giphy.gif";
+             }
+             
              return gif;
          }
          
@@ -50,6 +70,7 @@
 
      created: function () {
          this.fetchInit(this.url);
+          
      },
 
      computed: {

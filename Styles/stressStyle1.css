@@ -19,6 +19,10 @@ body {
 
 /*-----------MAP----------*/
 
+.map {
+    width: 500px;
+    height: 300px;
+}
 
 .map-responsive {
     overflow: hidden;
@@ -136,9 +140,9 @@ input[type=text]:focus {
     height: 350px;
     cursor: pointer;
     z-index: 1;
-
 }
 
+/*-------CARD INFO-------*/
 .city {
     text-shadow: 2px 2px 8px grey;
     padding: 10px;
@@ -168,6 +172,8 @@ input[type=text]:focus {
     z-index: 1;
     box-shadow: 3px 5px 6px grey;
 }
+
+/*-------GIFS-------*/
 
 .allgif {
     color: black;
@@ -209,11 +215,6 @@ input[type=text]:focus {
     height: 100%;
 }
 
-.map {
-    width: 500px;
-    height: 300px;
-}
-
 /*-------TABLE-------*/
 
 .flextable {
@@ -244,7 +245,6 @@ input[type=text]:focus {
     align-content: flex-end;
     align-items: flex-end;
     align-self: flex-end;
-
 }
 
 .table2 th {
