@@ -1,0 +1,4 @@
+gif tiempo = id gif
+class gifsun gifstorm gifrain gifcloud
+
+si value.weather[0].main= Rain,Clouds,Sunny,Sun
